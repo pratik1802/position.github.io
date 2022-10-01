@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 156vh;
+    width: 100vw;
+    background-color:yellow;
+
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding-left: 20px;
+    padding-top: 20px;
+    display:inline-block;
+    position:relative;
+    left:34rem;
+    top:5rem;
+     border-radius: 10px 20px 30px 20px;
+    /* border-radius: 100px; */
+/* transform:translateY(40px); */
+transition:all ease-in-out 1s;
+
+
+    
+    
+}
+.box1:hover{
+    background-color:blue;
+    color:whitesmoke;
+    transform:rotate(120deg);
+}
+
+ .box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding-left: 20px;
+    display: inline-block;
+    position: relative;
+    left:44rem;
+    box-shadow: 10px 20px 50px green; 
+    transform:rotate(120deg); 
+    
+
+
+}
